@@ -1,0 +1,7 @@
+{
+  "name": "homelander-angular-dev",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers-extra/features/angular-cli:2": {}
+  }
+}
