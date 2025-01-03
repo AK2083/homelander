@@ -8,6 +8,7 @@
   idx.extensions = [
     "angular.ng-template"
     "bradlc.vscode-tailwindcss"
+    "dbaeumer.vscode-eslint"
   ];
   idx.previews = {
     previews = {
