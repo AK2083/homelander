@@ -2,7 +2,8 @@
 const eslint = require("@eslint/js");
 const tseslint = require("typescript-eslint");
 const angular = require("angular-eslint");
-
+const pluginSecurity = require('eslint-plugin-security');
+module.exports = [pluginSecurity.configs.recommended];
 module.exports = tseslint.config(
   {
     files: ["**/*.ts"],
